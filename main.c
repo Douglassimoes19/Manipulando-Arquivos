@@ -12,7 +12,7 @@ struct Aluno{
     float nota2;
 }; //Struct Usada para guardar dados dos alunos;
 
-//escopo das funções;
+//esboço das funções;
 
 int contagemRegistros(FILE *arquivo);
 void lerArquivo(FILE *arquivo, struct Aluno a[], int cont);
